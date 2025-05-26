@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Amor</title>
+    <link rel="icon" type="image/jpg" href="/Imagens/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="click-heart">
+            <h2>Clique no Coração para abrir</h2>
+        </div>
+        
+        <div class="envelope">
+            <div class="flap top-flap"></div>
+            <div class="flap right-flap"></div>
+            <div class="heart-seal">❤</div>
+        </div>
+        
+        <div class="music-card">
+            <div class="song-info">
+                <img src="/Imagens/album cover.jpeg" alt="Album Cover" class="album-cover">
+                <div class="song-details">
+                    <h3>Mirrors</h3>
+                    <p>Justin Timberlake</p>
+                </div>
+            </div>
+            <audio id="audio" src="/assets/audio/Justin Timberlake - Mirrors.mp3"></audio>
+            <div class="controls">
+                <button id="prevBtn" class="control-btn">⏮</button>
+                <button id="playBtn" class="control-btn">▶</button>
+                <button id="nextBtn" class="control-btn">⏭</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="timer">
+                <span id="currentTime">0:00</span>
+                <span>/</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        
+        <div class="memories-section">
+            <h2>Nossas Memórias Juntos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="/Imagens/Image 1" alt="Memória 1"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 2" alt="Memória 2"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 3" alt="Memória 3"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 4" alt="Memória 4"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 5" alt="Memória 5"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 6" alt="Memória 6"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 7" alt="Memória 7"></div>
+                <div class="gallery-item"><img src="/Imagens/Image 8" alt="Memória 8"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay">
+        <div class="modal-letter">
+            <button class="close-modal">×</button>
+            <div class="letter">
+                <h1>Para minha Amada</h1>
+                <div class="letter-content">
+                    <p style="text-align: justify;">Minha querida Genielly,</p>
+                    <p style="text-align: justify;">Desde o momento em que te conheci, minha vida tem sido repleta de alegria e felicidade. Seu sorriso ilumina meu mundo e sua presença me traz paz. Aprecio cada momento que passamos juntos e espero criar muitas outras memórias lindas com você.</p>
+                    <p style="text-align: justify;">Você é minha confidente, minha parceira e minha melhor amiga. Sua gentileza e compaixão me inspiram todos os dias. Sou grato por seu apoio e amor. Juntos, podemos superar qualquer obstáculo e realizar nossos sonhos.</p>
+                    <p style="text-align: justify;">Prometo estar sempre ao seu lado, apoiá-la e amá-la incondicionalmente. Você é tudo para mim e tenho muita sorte de tê-la em minha vida.</p>
+                    <p class="signature">Com todo o meu amor,<br>Gustavo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
